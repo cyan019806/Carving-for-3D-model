@@ -1,0 +1,12 @@
+raw-file=tetrahedron.raw
+resolution=22x25x20
+sample-type=unsigned char
+voxel-size=0.100000:0.100000:0.100000
+endian=little
+Min=-0.706948:-1.216808:-0.007254
+Max=1.400264:1.211786:1.979054
+AIR=0
+SKIN6=255
+SKIN18=254
+SKIN26=253
+MODEL=252
