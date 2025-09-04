@@ -19,8 +19,7 @@
       
       <img width="300" height="86" alt="image" src="https://github.com/user-attachments/assets/a1e30034-494e-4700-842e-05520a7ba7d7" />
 
-      D 代表空間中位置 (x,y,z) 到模型表面的距離值
-      式中的<img width="130" height="52" alt="image" src="https://github.com/user-attachments/assets/38e68458-ac71-4e71-9732-af89f8685389" />
+      D 代表空間中位置 (x,y,z) 到模型表面的距離值，式中的<img width="130" height="52" alt="image" src="https://github.com/user-attachments/assets/38e68458-ac71-4e71-9732-af89f8685389" />
 
       代表每個體素在 x,y,z 三個方向中的梯度方向(即距離值是從哪傳遞過來)
       梯度方向為距離場擴散最快的方向，因此可作為後續的雕刻方向
