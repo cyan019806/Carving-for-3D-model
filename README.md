@@ -16,6 +16,7 @@
    1) 計算距離場實現模型分層
       透過計算距離場賦予每個體素距離值得以實現模型分層
       計算依據以下偏微分方程式，描述空間中任一點 (x, y, z) 到模型表面(距離值為0)的距離:
+      
       <img width="300" height="86" alt="image" src="https://github.com/user-attachments/assets/a1e30034-494e-4700-842e-05520a7ba7d7" />
       D 代表空間中位置 (x,y,z) 到模型表面的距離值
       式中的<img width="130" height="52" alt="image" src="https://github.com/user-attachments/assets/38e68458-ac71-4e71-9732-af89f8685389" />
@@ -75,6 +76,9 @@
    1) 陰刻後使用閉合運算
       <img width="1120" height="437" alt="image" src="https://github.com/user-attachments/assets/ea12e6b7-e9c7-4e81-845b-481fce1aef1a" />
 
-      
+      左圖為無使用閉合運算，右圖為使用閉合運算
+          
    2) 陽刻及鏤空後使用開啟運算
       <img width="1132" height="438" alt="image" src="https://github.com/user-attachments/assets/87036c5a-e089-4b20-83de-7c01d11019f4" />
+
+      左圖為無使用開啟運算，右圖為使用開啟運算  
