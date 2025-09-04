@@ -77,9 +77,9 @@
    1) 陰刻後使用閉合運算
       <img width="1120" height="437" alt="image" src="https://github.com/user-attachments/assets/ea12e6b7-e9c7-4e81-845b-481fce1aef1a" />
 
-      左圖為無使用閉合運算，右圖為使用閉合運算
+      左圖為無使用閉合運算的花瓶模型，右圖為使用閉合運算的花瓶模型
           
    2) 陽刻及鏤空後使用開啟運算
       <img width="1132" height="438" alt="image" src="https://github.com/user-attachments/assets/87036c5a-e089-4b20-83de-7c01d11019f4" />
 
-      左圖為無使用開啟運算，右圖為使用開啟運算  
+      左圖為無使用開啟運算的花瓶模型，右圖為使用開啟運算的花瓶模型
