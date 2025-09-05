@@ -20,7 +20,6 @@
       <img width="300" height="86" alt="image" src="https://github.com/user-attachments/assets/a1e30034-494e-4700-842e-05520a7ba7d7" />
 
       D 代表空間中位置 (x,y,z) 到模型表面的距離值，式中的<img width="130" height="52" alt="image" src="https://github.com/user-attachments/assets/38e68458-ac71-4e71-9732-af89f8685389" />
-
       代表每個體素在 x,y,z 三個方向中的梯度方向(即距離值是從哪傳遞過來)
       梯度方向為距離場擴散最快的方向，因此可作為後續的雕刻方向
       
@@ -41,7 +40,8 @@
    <img width="1126" height="427" alt="image" src="https://github.com/user-attachments/assets/a8ce1e54-c6af-4eb5-8c17-90d0d4715115" />
 
 5. 紋理映射
-   分為以下兩階段
+   
+   分為以下兩階段:
    1) 體素與神經元對應
       由於體素的數量遠大於神經元，因此需要進行 濾波(Filtering)
       找到與體素的空間座標最接近的神經元 BMU
@@ -72,14 +72,17 @@
       在陽刻基礎上移除模型內層，形成穿透的模型
       <img width="1186" height="328" alt="image" src="https://github.com/user-attachments/assets/e65c7492-aa74-424a-b8f1-4adafccee6ec" />
       
-7. 形態學運算
+8. 形態學運算
    使用開啟運算或閉合運算來優化結果
    1) 陰刻後使用閉合運算
       <img width="1120" height="437" alt="image" src="https://github.com/user-attachments/assets/ea12e6b7-e9c7-4e81-845b-481fce1aef1a" />
 
-      左圖為無使用閉合運算的花瓶模型，右圖為使用閉合運算的花瓶模型
+      左圖為陰刻後無使用閉合運算的花瓶模型，右圖為陰刻後使用閉合運算的花瓶模型
           
    2) 陽刻及鏤空後使用開啟運算
       <img width="1132" height="438" alt="image" src="https://github.com/user-attachments/assets/87036c5a-e089-4b20-83de-7c01d11019f4" />
 
-      左圖為無使用開啟運算的花瓶模型，右圖為使用開啟運算的花瓶模型
+      左圖為陽刻後無使用開啟運算的花瓶模型，右圖為陽刻後使用開啟運算的花瓶模型
+      <img width="1135" height="437" alt="image" src="https://github.com/user-attachments/assets/1fe427ba-bef7-43cb-b5db-f3beaa6b89c6" />
+      
+      左圖為鏤空後無使用開啟運算的花瓶模型，右圖為鏤空後使用開啟運算的花瓶模型
